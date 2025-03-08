@@ -1,4 +1,7 @@
 from tensorflow import keras
+import os
+
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 # load train and test data
 (X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()
@@ -25,5 +28,5 @@ model.compile(
 model.fit(X_train, y_train, epochs=5, validation_data=(X_test, y_test))
 
 # save the model
-model.save("mnist_model.h5")
-print("Model training complete! Saved as mnist_model.h5")
+model.save("mnist_model.keras")
+print("Model training complete! Saved as mnist_model.keras")
