@@ -2,4 +2,5 @@ fastapi
 uvicorn
 tensorflow
 opencv-python
+python-multipart
 numpy
