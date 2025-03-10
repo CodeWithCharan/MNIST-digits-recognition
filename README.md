@@ -1,10 +1,11 @@
 # MNIST Digits Recognition
 This project focuses on recognizing handwritten digits using a deep learning model trained on the MNIST dataset. The model is deployed as a REST API using FastAPI, packaged into a Docker container and orchestrated using Kubernetes for scalable deployment. The API allows users to upload digit images and receive predictions in real time.
 
-## Screenshot of the post request using postman
-<img src="Images/Post-Request-Screenshot(2025-03-09).png">
+🐳 **Docker Image:** `docker pull codewithcharan/mnist_api:v1`  
+🤗 **Trained Model:** [Hugging Face](https://huggingface.co/CodeWithCharan/MNIST-Model)  
 
-Download the trained model: [HuggingFace model repository](https://huggingface.co/CodeWithCharan/MNIST-Model)
+## **Demo Video**
+https://github.com/user-attachments/assets/e8a1d444-68f8-42bb-b999-14933032cbb7
 
 ## Cloning the Repository
 
